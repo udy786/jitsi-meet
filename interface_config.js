@@ -37,8 +37,7 @@ var interfaceConfig = {
     AUTHENTICATION_ENABLE: true,
 
     /**
-     * the toolbar buttons line is intentionally left in one line, to be able
-     * to easily override values or remove them using regex
+     * An enumerations of the buttons to display in the toolbar.
      */
     TOOLBAR_BUTTONS: [
 
@@ -51,7 +50,7 @@ var interfaceConfig = {
         'invite', 'feedback', 'stats', 'shortcuts'
     ],
 
-    SETTINGS_SECTIONS: [ 'language', 'devices', 'moderator' ],
+    SETTINGS_SECTIONS: [ 'devices', 'language', 'moderator', 'profile' ],
 
     // Determines how the video would fit the screen. 'both' would fit the whole
     // screen, 'height' would fit the original video height to the height of the
